@@ -1,0 +1,21 @@
+{
+  "name": "default",
+  "permissions": [
+    {
+      "permission": "bukkit.command.tps",
+      "value": true
+    },
+    {
+      "permission": "minecraft.command.locate",
+      "value": true
+    },
+    {
+      "permission": "minecraft.command.seed",
+      "value": true
+    },
+    {
+      "permission": "weight.10",
+      "value": true
+    }
+  ]
+}

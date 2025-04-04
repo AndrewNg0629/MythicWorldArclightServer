@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "permissions": [
+    {
+      "permission": "luckperms.*",
+      "value": true
+    },
+    {
+      "permission": "luckperms.autoop",
+      "value": true
+    },
+    {
+      "permission": "weight.20",
+      "value": true
+    }
+  ]
+}

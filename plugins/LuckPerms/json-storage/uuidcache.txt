@@ -1,0 +1,4 @@
+# LuckPerms UUID lookup cache
+b4a7cea7-863e-4ac3-8c0b-46f95fea8971:Booosen
+cc65805f-7b1a-3a85-919f-fe1c43306180:intersect
+ca02eaee-4a4b-4c7b-bfb9-52f0d4996e4a:AllayNg

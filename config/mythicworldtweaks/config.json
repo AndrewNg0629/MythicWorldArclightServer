@@ -1,0 +1,276 @@
+{
+  "mod_enabled": true,
+  "mod_data_pack_enabled": true,
+  "tweaks_enabled": true,
+  "server_play_support_enabled": true,
+  "server_name": "AENP-MythicWorld",
+  "mod_id_validation": {
+    "enabled": true,
+    "mod_id_list": [
+      "badpackets",
+      "datapackportals",
+      "elytraslot",
+      "potioncauldron",
+      "purecoppertools",
+      "simple_copper_pipes",
+      "trinkets"
+    ]
+  },
+  "binary_toggle_tweaks": {
+    "throwable_fire_charge": true,
+    "large_fire_charge": true,
+    "editable_player_data": false,
+    "blocks_friendly_creepers": false,
+    "item_explosion_resistance": true,
+    "nestable_shulker_boxes": true,
+    "rideable_players": true,
+    "player_riding_gestures": true,
+    "player_riding_protection": true,
+    "dispensable_tridents": true,
+    "void_returnable_trident": true,
+    "multi_trident_damage": false,
+    "persistent_tridents": false,
+    "silent_wardens": false,
+    "constant_villager_conversion": true,
+    "fake_player_sleep_exclusion": true,
+    "sleeping_extras": true,
+    "suicide_command": true,
+    "keep_experience": true,
+    "always_dragon_egg": false,
+    "bow_enchantments_for_crossbow": true,
+    "creative_player_void_resistance": false
+  },
+  "params_required_tweaks": {
+    "auto_discarding_fire_ball": {
+      "enabled": true,
+      "max_life_ticks": 200
+    },
+    "stuffed_shulker_box_stack_limit": {
+      "enabled": true,
+      "max_stack_size": 1
+    },
+    "shulker_box_nesting_limit": {
+      "enabled": true,
+      "max_layers": 1
+    },
+    "warden_attributes_weakening": {
+      "enabled": true,
+      "max_health": 100.0,
+      "knock_back_resistance": 1.0,
+      "melee_attack_damage": 5.0,
+      "melee_attack_knock_back": 1.5,
+      "idle_movement_speed": 0.3,
+      "chasing_movement_speed": 1.2,
+      "attack_interval_ticks": 30
+    },
+    "warden_sonic_boom_weakening": {
+      "enabled": true,
+      "sonic_boom_damage": 3.0,
+      "sonic_boom_knock_back_rate": 0.75,
+      "sonic_boom_interval_ticks": 60
+    },
+    "player_death_item_protection": {
+      "enabled": true,
+      "item_discard_ticks": 36000,
+      "mob_pickup_protection": true,
+      "strict_pickup": false
+    }
+  },
+  "item_editor": {
+    "enabled": true,
+    "item_edit_config_list": [
+      {
+        "target_item": "minecraft:potion",
+        "max_stack_size": 32
+      },
+      {
+        "target_item": "minecraft:splash_potion",
+        "max_stack_size": 32
+      },
+      {
+        "target_item": "minecraft:lingering_potion",
+        "max_stack_size": 32
+      },
+      {
+        "target_item": "minecraft:snowball",
+        "max_stack_size": 128
+      },
+      {
+        "target_item": "minecraft:ender_pearl",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:honey_bottle",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:milk_bucket",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:lava_bucket",
+        "max_stack_size": 32
+      },
+      {
+        "target_item": "minecraft:water_bucket",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:egg",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:cake",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:elytra",
+        "max_damage": 900
+      },
+      {
+        "target_item": "minecraft:shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:white_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:orange_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:magenta_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:light_blue_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:yellow_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:lime_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:pink_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:gray_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:light_gray_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:cyan_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:purple_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:blue_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:brown_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:green_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:red_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:black_shulker_box",
+        "max_stack_size": 64
+      },
+      {
+        "target_item": "minecraft:bolt_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:bolt_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:coast_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:coast_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:dune_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:dune_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:eye_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:eye_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:flow_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:flow_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:host_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:host_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:netherite_upgrade_smithing_template",
+        "recipe_remainder": "minecraft:netherite_upgrade_smithing_template"
+      },
+      {
+        "target_item": "minecraft:raiser_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:raiser_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:rib_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:rib_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:sentry_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:sentry_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:shaper_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:shaper_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:silence_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:silence_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:snout_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:snout_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:spire_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:spire_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:tide_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:tide_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:vex_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:vex_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:ward_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:ward_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:wayfinder_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:wayfinder_armor_trim_smithing_template"
+      },
+      {
+        "target_item": "minecraft:wild_armor_trim_smithing_template",
+        "recipe_remainder": "minecraft:wild_armor_trim_smithing_template"
+      }
+    ]
+  }
+}
